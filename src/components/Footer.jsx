@@ -28,7 +28,9 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="https://www.facebook.com/profile.php?id=61574708043897"
-                className="text-light/70 hover:text-accent transition-colors">
+                className="text-light/70 hover:text-accent transition-colors"
+                target="_blank"
+                rel="noopener noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
@@ -50,7 +52,9 @@ const Footer = () => {
               </a> */}
               <a
                 href="https://www.instagram.com/itwe.technology/"
-                className="text-light/70 hover:text-accent transition-colors">
+                className="text-light/70 hover:text-accent transition-colors"
+                target="_blank"
+                rel="noopener noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
@@ -77,43 +81,45 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-light mb-4">
               Liên Kết Nhanh
             </h3>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="#home"
-                  className="text-light/70 hover:text-accent transition-colors">
-                  Trang Chủ
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#services"
-                  className="text-light/70 hover:text-accent transition-colors">
-                  Dịch Vụ
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#about"
-                  className="text-light/70 hover:text-accent transition-colors">
-                  Giới Thiệu
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#portfolio"
-                  className="text-light/70 hover:text-accent transition-colors">
-                  Dự Án
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="text-light/70 hover:text-accent transition-colors">
-                  Liên Hệ
-                </a>
-              </li>
-            </ul>
+            <nav aria-label="Footer Navigation">
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="#home"
+                    className="text-light/70 hover:text-accent transition-colors">
+                    Trang Chủ
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#services"
+                    className="text-light/70 hover:text-accent transition-colors">
+                    Dịch Vụ
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#about"
+                    className="text-light/70 hover:text-accent transition-colors">
+                    Giới Thiệu
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#portfolio"
+                    className="text-light/70 hover:text-accent transition-colors">
+                    Dự Án
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#contact"
+                    className="text-light/70 hover:text-accent transition-colors">
+                    Liên Hệ
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
 
           <div>
@@ -154,8 +160,8 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-light mb-4">
               Thông Tin Liên Hệ
             </h3>
-            <div className="space-y-3">
-              <p className="text-light/70 flex items-start">
+            <address className="not-italic text-light/70 space-y-3">
+              <p className="flex items-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 mr-2 mt-0.5 text-accent"
@@ -169,7 +175,7 @@ const Footer = () => {
                 </svg>
                 451/38 Xô Viết Nghệ Tĩnh, phường 26, Bình Thạnh, Hồ Chí Minh
               </p>
-              <p className="text-light/70 flex items-start">
+              <p className="flex items-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 mr-2 mt-0.5 text-accent"
@@ -183,9 +189,13 @@ const Footer = () => {
                     d="M16 12l-4-4-4 4m8 0v6a2 2 0 01-2 2H6a2 2 0 01-2-2v-6m16-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v4"
                   />
                 </svg>
-                itwe.technology.marketing@gmail.com
+                <a
+                  href="mailto:itwe.technology.marketing@gmail.com"
+                  className="hover:text-accent transition-colors">
+                  itwe.technology.marketing@gmail.com
+                </a>
               </p>
-              <p className="text-light/70 flex items-start">
+              <p className="flex items-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 mr-2 mt-0.5 text-accent"
@@ -193,9 +203,13 @@ const Footer = () => {
                   fill="currentColor">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                0386296248
+                <a
+                  href="tel:0386296248"
+                  className="hover:text-accent transition-colors">
+                  0386296248
+                </a>
               </p>
-            </div>
+            </address>
           </div>
         </div>
 

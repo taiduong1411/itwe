@@ -22,7 +22,9 @@ const Hero = () => {
               pháp dành cho doanh nghiệp để tiết kiệm tối đa thời gian vận hành
             </p>
 
-            <ul className="space-y-3 mb-8 max-w-lg mx-auto lg:mx-0 animate-fade-in animation-delay-200">
+            <ul
+              className="space-y-3 mb-8 max-w-lg mx-auto lg:mx-0 animate-fade-in animation-delay-200"
+              aria-label="Lĩnh vực kinh doanh của iTWe">
               <li className="flex items-center gap-3 text-light/90">
                 <svg
                   className="w-5 h-5 text-accent flex-shrink-0"

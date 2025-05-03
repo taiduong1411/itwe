@@ -72,21 +72,34 @@ const CTA = () => {
           <div className="bg-dark/50 backdrop-blur-md p-8 rounded-xl max-w-md mx-auto animate-fade-in animation-delay-300">
             <form className="space-y-4">
               <div>
+                <label htmlFor="cta-name" className="sr-only">
+                  Họ Tên Của Bạn
+                </label>
                 <input
+                  id="cta-name"
                   type="text"
                   placeholder="Họ Tên Của Bạn"
                   className="w-full px-4 py-3 bg-dark/50 rounded-md border border-light/20 text-light focus:outline-none focus:border-accent"
                 />
               </div>
               <div>
+                <label htmlFor="cta-email" className="sr-only">
+                  Email Của Bạn
+                </label>
                 <input
+                  id="cta-email"
                   type="email"
                   placeholder="Email Của Bạn"
                   className="w-full px-4 py-3 bg-dark/50 rounded-md border border-light/20 text-light focus:outline-none focus:border-accent"
                 />
               </div>
               <div>
-                <select className="w-full px-4 py-3 bg-dark/50 rounded-md border border-light/20 text-light/70 focus:outline-none focus:border-accent appearance-none">
+                <label htmlFor="cta-service" className="sr-only">
+                  Chọn Dịch Vụ
+                </label>
+                <select
+                  id="cta-service"
+                  className="w-full px-4 py-3 bg-dark/50 rounded-md border border-light/20 text-light/70 focus:outline-none focus:border-accent appearance-none">
                   <option value="">Chọn Dịch Vụ</option>
                   <option value="maps-seo">SEO Google Maps</option>
                   <option value="web-design">Thiết Kế Website</option>
@@ -95,7 +108,11 @@ const CTA = () => {
                 </select>
               </div>
               <div>
+                <label htmlFor="cta-message" className="sr-only">
+                  Nội dung dự án
+                </label>
                 <textarea
+                  id="cta-message"
                   placeholder="Hãy cho chúng tôi biết về dự án của bạn"
                   rows="4"
                   className="w-full px-4 py-3 bg-dark/50 rounded-md border border-light/20 text-light focus:outline-none focus:border-accent"></textarea>

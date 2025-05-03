@@ -57,7 +57,7 @@ const Portfolio = () => {
       <div className="container-custom">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-light mb-4">
-            Dự Án Tiêu Biểu
+            Dự Án Tiêu Biểu ITWe Đã Thực Hiện
           </h2>
           <p className="text-light/70 max-w-2xl mx-auto">
             Khám phá một số dự án tiêu biểu chúng tôi đã thực hiện cho khách
@@ -88,12 +88,14 @@ const Portfolio = () => {
               <div className="relative overflow-hidden h-60">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={`Dự án ${project.title} - ${project.category} - ITWe`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <button className="px-4 py-2 bg-accent text-white rounded-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                    Xem Chi Tiết
+                    <span aria-label={`Xem chi tiết dự án ${project.title}`}>
+                      Xem Chi Tiết
+                    </span>
                   </button>
                 </div>
               </div>

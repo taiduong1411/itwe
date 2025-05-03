@@ -5,7 +5,8 @@
   padding: 0;
 }
 
-/* Navigation styles */
+/* Navigation styles - COMMENT OUT */
+/*
 nav {
   position: fixed;
   top: 0;
@@ -43,7 +44,7 @@ nav.transparent {
     display: none;
   }
 }
-
+*/
 /* Các styles khác có thể được thêm sau này */
 
 .logo {

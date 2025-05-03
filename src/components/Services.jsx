@@ -85,7 +85,7 @@ const Services = () => {
       <div className="container-custom">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-light mb-4">
-            Dịch Vụ Của Chúng Tôi
+            Dịch Vụ Marketing Số & Tự Động Hóa của ITWe
           </h2>
           <p className="text-light/70 max-w-2xl mx-auto">
             Chúng tôi cung cấp nhiều dịch vụ marketing để giúp doanh nghiệp của

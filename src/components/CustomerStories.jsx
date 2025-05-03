@@ -39,7 +39,7 @@ const CustomerStories = () => {
       <div className="container-custom">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-light mb-4">
-            Câu Chuyện Của Khách Hàng
+            Câu Chuyện Thành Công Của Khách Hàng ITWe
           </h2>
           <p className="text-light/70 max-w-2xl mx-auto">
             Khám phá những câu chuyện từ khách hàng khi sử dụng dịch vụ SEO
@@ -49,7 +49,7 @@ const CustomerStories = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {stories.map((story, index) => (
-            <div
+            <article
               key={index}
               className="bg-dark/30 backdrop-blur-sm rounded-lg p-6 border border-accent/10 shadow-lg hover:shadow-accent/5 transition-all duration-300 animate-fade-in"
               style={{ animationDelay: `${index * 150}ms` }}>
@@ -57,7 +57,7 @@ const CustomerStories = () => {
                 <div className="flex-shrink-0 mt-1">
                   <img
                     src={story.image}
-                    alt={`Ảnh của ${story.name}`}
+                    alt={`Khách hàng ${story.name} - ${story.company} - ITWe`}
                     className="w-16 h-16 rounded-full border-2 border-accent/30 object-cover"
                   />
                 </div>
@@ -85,7 +85,7 @@ const CustomerStories = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>
