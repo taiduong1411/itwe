@@ -11,12 +11,11 @@ const CTA = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-light mb-6">
-              Sẵn Sàng Nâng Tầm Hiện Diện Kỹ Thuật Số Của Bạn?
+              Sẵn Sàng Nâng Tầm Thương Hiệu Của Bạn?
             </h2>
             <p className="text-light/70 mb-8">
               Liên hệ với chúng tôi ngay hôm nay để được tư vấn miễn phí về cách
-              ITWe có thể giúp doanh nghiệp của bạn phát triển mạnh mẽ trong môi
-              trường kỹ thuật số.
+              ITWe có thể giúp doanh nghiệp của bạn phát triển mạnh mẽ hơn.
             </p>
             <ul className="space-y-4 mb-8">
               <li className="flex items-center text-light/70">
@@ -68,12 +67,6 @@ const CTA = () => {
                 Giải pháp tùy chỉnh cho doanh nghiệp của bạn
               </li>
             </ul>
-            <p className="text-light/70 italic text-sm">
-              "ITWe đã giúp chúng tôi tăng lưu lượng truy cập từ Google Maps lên
-              200% chỉ trong 3 tháng. Đội ngũ của họ không chỉ chuyên nghiệp mà
-              còn rất tận tâm với dự án của chúng tôi."
-            </p>
-            <p className="text-light mt-2">- Nguyễn Văn A, CEO Công ty XYZ</p>
           </div>
 
           <div className="bg-dark/50 backdrop-blur-md p-8 rounded-xl max-w-md mx-auto animate-fade-in animation-delay-300">
@@ -98,7 +91,7 @@ const CTA = () => {
                   <option value="maps-seo">SEO Google Maps</option>
                   <option value="web-design">Thiết Kế Website</option>
                   <option value="digital-marketing">Digital Marketing</option>
-                  <option value="brand-strategy">Chiến Lược Thương Hiệu</option>
+                  <option value="brand-strategy">Tự Động Hóa</option>
                 </select>
               </div>
               <div>

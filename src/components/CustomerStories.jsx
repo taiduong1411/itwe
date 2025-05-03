@@ -2,7 +2,7 @@ const CustomerStories = () => {
   const stories = [
     {
       name: "Nguyễn Văn Linh",
-      position: "Chủ nhà hàng",
+      position: "",
       company: "Nhà hàng Hải Sản Biển Xanh",
       image: "https://randomuser.me/api/portraits/men/32.jpg",
       story:
@@ -10,7 +10,7 @@ const CustomerStories = () => {
     },
     {
       name: "Trần Thị Minh",
-      position: "Giám đốc",
+      position: "",
       company: "Spa Làn Da Xinh",
       image: "https://randomuser.me/api/portraits/women/44.jpg",
       story:
@@ -18,7 +18,7 @@ const CustomerStories = () => {
     },
     {
       name: "Lê Hoàng Nam",
-      position: "Quản lý",
+      position: "",
       company: "Khách sạn Phương Đông",
       image: "https://randomuser.me/api/portraits/men/62.jpg",
       story:
@@ -26,7 +26,7 @@ const CustomerStories = () => {
     },
     {
       name: "Phạm Thu Hà",
-      position: "CEO",
+      position: "",
       company: "Cửa hàng đồ handmade Việt",
       image: "https://randomuser.me/api/portraits/women/28.jpg",
       story:
@@ -39,12 +39,11 @@ const CustomerStories = () => {
       <div className="container-custom">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-light mb-4">
-            Câu Chuyện Thành Công
+            Câu Chuyện Của Khách Hàng
           </h2>
           <p className="text-light/70 max-w-2xl mx-auto">
-            Khám phá những câu chuyện từ khách hàng đã đạt được thành công khi
-            sử dụng dịch vụ SEO Google Maps của chúng tôi, giúp họ thu hút khách
-            hàng từ các tỉnh thành khác
+            Khám phá những câu chuyện từ khách hàng khi sử dụng dịch vụ SEO
+            Google Maps của chúng tôi
           </p>
         </div>
 
@@ -67,9 +66,7 @@ const CustomerStories = () => {
                     <h3 className="text-xl font-semibold text-light">
                       {story.name}
                     </h3>
-                    <p className="text-accent">
-                      {story.position}, {story.company}
-                    </p>
+                    <p className="text-accent">{story.company}</p>
                   </div>
                   <p className="text-light/70">"{story.story}"</p>
                   <div className="mt-4 flex">

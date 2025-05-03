@@ -53,7 +53,7 @@ const services = [
         <line x1="12" y1="22.08" x2="12" y2="12"></line>
       </svg>
     ),
-    title: "Digital Marketing",
+    title: "Ads Google & Facebook",
     description:
       "Chiến lược digital marketing toàn diện bao gồm SEO, marketing mạng xã hội, chiến dịch email và marketing nội dung.",
   },
@@ -73,9 +73,9 @@ const services = [
         <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
       </svg>
     ),
-    title: "Chiến Lược Thương Hiệu",
+    title: "Tự động hóa quy trình làm việc",
     description:
-      "Phát triển nhận diện và chiến lược thương hiệu hấp dẫn, phù hợp với đối tượng mục tiêu và giúp bạn nổi bật giữa các đối thủ cạnh tranh.",
+      "Tự động hóa quy trình làm việc bằng các công cụ AI hiện đại, giúp tiết kiệm thời gian và nâng cao hiệu suất.",
   },
 ];
 
@@ -88,8 +88,8 @@ const Services = () => {
             Dịch Vụ Của Chúng Tôi
           </h2>
           <p className="text-light/70 max-w-2xl mx-auto">
-            Chúng tôi cung cấp nhiều dịch vụ kỹ thuật số toàn diện để giúp doanh
-            nghiệp của bạn phát triển mạnh mẽ trên môi trường trực tuyến
+            Chúng tôi cung cấp nhiều dịch vụ marketing để giúp doanh nghiệp của
+            bạn phát triển mạnh mẽ trong thời đại số
           </p>
         </div>
 

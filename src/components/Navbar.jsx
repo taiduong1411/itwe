@@ -28,7 +28,6 @@ const Navbar = () => {
         <a href="#" className="flex items-center">
           <div className="logo-text flex items-center">
             <span className="relative text-[#39B3FF] text-2xl md:text-3xl font-bold">
-              <span className="text-[#FF3B30]">.</span>
               <span>i</span>
             </span>
             <span className="text-[#0066CC] text-2xl md:text-3xl font-bold">
